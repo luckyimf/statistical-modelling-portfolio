@@ -1,18 +1,28 @@
-Statistical Modelling and Predictive Analysis Portfolio
-I conducted advanced statistical analysis across three real-world datasets — Wine Quality, Melbourne Housing, and IBM HR Attrition — to examine how different predictors influence quality ratings, housing prices, and employee turnover. Using R, I applied multiple linear regression, logistic regression, and independent samples t-tests to model outcomes and test hypotheses.
+# Statistical Modelling and Predictive Analysis Portfolio
 
-I validated key assumptions such as multicollinearity and linearity using tools like ggpairs, Q-Q plots, and VIF. For the Melbourne housing dataset, I addressed missing data using median imputation and transformed inconsistent variables to enable proper analysis. In the HR dataset, I used logistic regression to predict attrition based on income and commuting distance.
+This project showcases applied statistical analysis using real-world datasets across wine quality, housing prices, and employee attrition. Using R and its packages, I explored predictors, validated assumptions, and built models that support data-informed decision-making.
 
-Key insights included:
+## Datasets Covered
+- Wine Quality Dataset (UCI)
+- Melbourne Housing Dataset
+- IBM HR Attrition Dataset
 
-Alcohol and volatile acidity strongly predicted wine quality
+## Techniques Applied
+- Multiple Linear Regression
+- Logistic Regression
+- Independent Samples t-tests
+- Hypothesis Testing
+- Data Cleaning & Imputation
+- Diagnostic Testing (VIF, Q-Q Plots, Linearity)
 
-Number of rooms and proximity to the city impacted house pricing
+## Key Insights
+- Wine Quality: Alcohol and volatile acidity are strong predictors of quality scores.
+- Housing: Number of rooms and proximity to the city drive price variations.
+- HR Attrition: Monthly income and commuting distance are key turnover indicators.
 
-Monthly income and distance from home were major attrition drivers
+## Tools Used
+R | tidyverse | GGally | car | ggpairs | Statistical Inference
 
-This portfolio sharpened my ability to frame research questions, clean and model data, test statistical assumptions, and communicate insights across multiple business domains.
-
-Tools Used: R | GGally | car | tidyverse | Regression | Hypothesis Testing | Data Cleaning
-
-
+## Author
+Lucky Imafidon  
+GitHub: [https://github.com/luckyimf](https://github.com/luckyimf)
